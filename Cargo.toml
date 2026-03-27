@@ -1,0 +1,8 @@
+[package]
+name = "primer3_design_byRUST"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.22.6", features = ["auto-initialize"] }
+chrono = "0.4"
